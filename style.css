@@ -22,7 +22,7 @@
     padding-top: 30px;
     padding-bottom:30px;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.543);
+    background-color: rgb(255, 255, 255);
     height:30px;
     width: 100%;
 }
