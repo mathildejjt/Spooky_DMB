@@ -38,9 +38,6 @@
     
 }
 
-
-
-
 .fantomebackground{
     background-color: #C83E4D;
     display: flex;
@@ -60,7 +57,6 @@
     align-items: center;
     gap: 50px;
     font-size: 30px;
-
 }
 
 
