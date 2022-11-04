@@ -4,6 +4,7 @@ font-family: 'Roboto', sans-serif;*/
 * {
     margin: 0;
     padding: 0;
+    color: whitesmoke;
 }
 
 body{
@@ -11,8 +12,13 @@ body{
 }
 .spooky{
     font-family: 'Pathway Gothic One', sans-serif;
-    font: 54px;
+    font-size: 30px;
     color: whitesmoke;
+  
+}
+.spooky a {
+    text-decoration: none;
+
 }
 
 .navbar {
@@ -27,4 +33,55 @@ body{
     width: 100%;
     box-shadow: 0 1px 15px #C83E4D ;
     border-radius: 10;
+    
+}
+
+section{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+
+}
+
+.vide{
+    height: 150px;
+
+}
+.Hannibal{
+    font-family:'Pathway Gothic One', sans-serif ;
+    font-size: 70px;
+    color:#C83E4D ;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-top: 100px;
+    
+}
+
+.hannibal-portrait{
+    border-radius: 10%;
+
+}
+
+ul{
+    list-style-type: none ;
+   line-height: 1.5em;
+   font-family:'Roboto',sans-serif; ;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Pathway Gothic One', sans-serif ; 
+    line-height: 2em;
+    text-decoration: underline;
+}
+
+.gras{
+    font-weight: bold;
 }
