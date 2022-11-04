@@ -23,6 +23,8 @@ body{
     background-color: black;
     height:30px;
     width: 100%;
+    box-shadow: 0 1px 15px #C83E4D ;
+    border-radius: 10;
 }
 
 
@@ -32,13 +34,12 @@ body{
     justify-content: center;
     align-items:center;
     padding: 50px 10%;
-    margin-right: 50px;
-    margin-left: 50px;
+    
 }
 
 .fantome2{
     width: 10%;
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 
 p{
