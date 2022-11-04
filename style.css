@@ -9,7 +9,7 @@ body{
 }
 .spooky{
     font-family: 'Pathway Gothic One', sans-serif;
-    font: 55px;
+    font: 54px;
     color: whitesmoke;
 }
 
@@ -99,3 +99,4 @@ padding-left: 350px;
     transform: scale(1.2);
     transition: 0.4s;
 }
+
