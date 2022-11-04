@@ -1,0 +1,39 @@
+/* font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.spooky{
+    padding-top: 55px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font: 55px;
+    color: #000411;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom:30px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    height:30px;
+    width: 100%;
+}
+
+.arbre{
+    width: 280px;
+    height: 90px;
+}
+
+.arbre2{
+    width: 280px;
+    height: 90px;
+    
+}
