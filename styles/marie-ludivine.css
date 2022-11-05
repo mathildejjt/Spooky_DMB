@@ -4,7 +4,7 @@ font-family: 'Roboto', sans-serif;*/
 * {
     margin: 0;
     padding: 0;
-    color: whitesmoke;
+    color: #C3C1C1;
 }
 
 body{
@@ -13,7 +13,6 @@ body{
 .spooky{
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 30px;
-    color: whitesmoke;
   
 }
 .spooky a {
@@ -104,5 +103,17 @@ h2{
     font-size: 14px;
     width:min-content;
     text-align: center;
+    border: 1px solid;
+    padding: 1%;
 
 }
+
+.qui-est{
+    display: flex;
+    align-items: center;
+    gap:100px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+}
+
