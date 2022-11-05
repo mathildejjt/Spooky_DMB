@@ -64,7 +64,8 @@ p{
     margin-bottom: 100px;
 }
 
-.titre{
+.titre a {
+    text-decoration: none;
     color: whitesmoke;
 }
 
