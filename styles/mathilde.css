@@ -1,5 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #C3C1C1;
+}
+
+
+.spooky{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+  
+}
+.spooky a {
+    text-decoration: none;
+
+}
+
 body {
-    padding: 50px 10%;
     background-color: black;
 }
 
@@ -13,8 +29,10 @@ body {
     background-color: black;
     height:30px;
     width: 100%;
+    box-shadow: 0 1px 15px #C83E4D ;
+    border-radius: 10;
+    
 }
-
 
 h1 {
     font-family: 'Pathway Gothic One', sans-serif;
@@ -27,10 +45,13 @@ p {
 }
 
 .card {
-    padding: 100px;
+    width: 50%;
+    padding: 200px 10%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: white;
 }
 
 .photo_id {

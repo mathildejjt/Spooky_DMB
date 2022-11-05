@@ -2,6 +2,8 @@
 * {
   margin:0;
     padding: 0;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 body{
@@ -52,20 +54,18 @@ p{
 }
 
 .Home {
-    margin-right: 50px;
-    margin-left: 50px;
+    padding: 50px 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 50px;
     font-size: 30px;
     font-family: 'Pathway Gothic One', sans-serif;
-    margin-top: 120px ;
-    margin-bottom: 100px;
+
 }
 
 .titre{
-    color: whitesmoke;
+
 }
 
 .Mom {
@@ -101,3 +101,24 @@ padding-left: 350px;
     transition: 0.4s;
 }
 
+footer { 
+    color: whitesmoke;
+    font-family: 'Pathway Gothic One', sans-serif;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center; 
+}
+.footer_elements {
+padding: 200px 10%;
+
+}
+.hover:hover {
+    color: #C83E4D;
+}
+
+
+.audio {
+    display: flex;
+    gap: 200px;
+}
