@@ -3,6 +3,19 @@ body {
     background-color: black;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom:30px;
+    position: fixed;
+    background-color: black;
+    height:30px;
+    width: 100%;
+}
+
+
 h1 {
     font-family: 'Pathway Gothic One', sans-serif;
     color: white;
