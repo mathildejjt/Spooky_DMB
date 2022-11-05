@@ -9,7 +9,7 @@ body{
 }
 .spooky{
     font-family: 'Pathway Gothic One', sans-serif;
-    font: 55px;
+    font-size: 30px;
     color: whitesmoke;
 }
 
@@ -23,6 +23,8 @@ body{
     background-color: black;
     height:30px;
     width: 100%;
+    box-shadow: 0 1px 15px #C83E4D ;
+    border-radius: 10;
 }
 
 
@@ -32,15 +34,16 @@ body{
     justify-content: center;
     align-items:center;
     padding: 50px 10%;
+    
 }
 
 .fantome2{
     width: 10%;
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 
 p{
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Pathway Gothic One', sans-serif;
     color: whitesmoke;
     display:flex;
@@ -49,6 +52,8 @@ p{
 }
 
 .Home {
+    margin-right: 50px;
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -66,7 +71,7 @@ p{
 .Mom {
 background: url(/img/isaac-repentance-quickie-mother-une-jeuvideo.jpeg);
 background-size: 120%;
-padding: 40px 10%;
+padding: 50px 10%;
 background-repeat: no-repeat;
 padding-left: 350px;
 
@@ -95,3 +100,4 @@ padding-left: 350px;
     transform: scale(1.2);
     transition: 0.4s;
 }
+

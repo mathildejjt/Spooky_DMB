@@ -4,15 +4,20 @@ font-family: 'Roboto', sans-serif;*/
 * {
     margin: 0;
     padding: 0;
+    color: #C3C1C1;
 }
 
+body{
+    background-color: black;
+}
 .spooky{
-    padding-top: 55px;
     font-family: 'Pathway Gothic One', sans-serif;
-    font: 55px;
-    color: #000411;
-    padding-left: 19px;
-    padding-right: 19px;
+    font-size: 30px;
+  
+}
+.spooky a {
+    text-decoration: none;
+
 }
 
 .navbar {
@@ -22,18 +27,108 @@ font-family: 'Roboto', sans-serif;*/
     padding-top: 30px;
     padding-bottom:30px;
     position: fixed;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     height:30px;
     width: 100%;
-}
-
-.arbre{
-    width: 280px;
-    height: 90px;
-}
-
-.arbre2{
-    width: 280px;
-    height: 90px;
+    box-shadow: 0 1px 15px #C83E4D ;
+    border-radius: 10;
     
+}
+
+section{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+
+}
+
+.vide{
+    height: 150px;
+
+}
+.Hannibal{
+    font-family:'Pathway Gothic One', sans-serif ;
+    font-size: 70px;
+    color:#C83E4D ;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-top: 100px;
+    
+}
+
+.hannibal-portrait{
+    border-radius: 10%;
+
+}
+
+ul{
+    list-style-type: none ;
+   line-height: 1.5em;
+   font-family:'Roboto',sans-serif; 
+   font-size: 15px;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Pathway Gothic One', sans-serif ; 
+    line-height: 2em;
+    text-decoration: underline;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.films-texte{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    padding-top: 30px;
+
+}
+
+.film{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap :30px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    width:min-content;
+    text-align: center;
+    border: 1px solid;
+    padding: 1%;
+
+}
+
+.qui-est{
+    display: flex;
+    align-items: center;
+    gap:100px;
+    
+}
+   
+
+.text2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.histoire{
+    display: flex;
+    align-items: center;
+   gap:100px; 
+    
+}
+
+.alfredo{
+    width:40%;
 }
