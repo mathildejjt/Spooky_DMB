@@ -37,7 +37,7 @@ body {
 h1 {
     font-family: 'Pathway Gothic One', sans-serif;
     color: #ffffff;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center ;
 }
 
@@ -46,28 +46,41 @@ p {
     color: #C3C1C1;
 }
 
-.card {
+.card_mom {
+    padding: 50px 10%;
     padding-top: 200px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+
+.card_isaac {
+    padding: 50px 10%;
+    padding-top: 20px;
     padding-bottom: 100px;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
-    justify-content: center;
-
+    justify-content: right;
+    gap: 20px;
 }
 
-.photo_id {
-    padding: 50px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 20px;
-    box-shadow: inset;
-    
+.photo_id2 img {
+    width: 150px;
 }
  
+
 .description_id ul {
+    color: #8c8c8c;
+    list-style-type:none ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+.description_id2 ul {
     color: #8c8c8c;
     list-style-type:none ;
     font-family: 'Roboto', sans-serif;
@@ -80,6 +93,25 @@ font-size: 16px;
 color: #ffffff;
 }
 
+.Mom_parties{
+    display: flex;
+justify-content: space-between;
+    flex-direction: row;
+    gap:20px;
+    padding: 50px 10%;
+}
+
+.parties{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap :30px;
+    text-align: center;
+    border: 1px solid;
+    padding: 25px;
+    border-radius: 20px;
+
+}
 .invocations {
     padding: 50px 10%;
     display: flex;
@@ -87,6 +119,7 @@ color: #ffffff;
     align-items: center;
     justify-content: space-between;
     border: #C83E4D solid 1px;
+
 }
 
 .monster1 {
