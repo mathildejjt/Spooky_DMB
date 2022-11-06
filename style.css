@@ -109,10 +109,10 @@ footer {
     justify-content: baseline;
     flex-direction: column;
     align-items: center; 
+    
 }
 .footer_elements {
 padding: 200px 10%;
-
 }
 .hover:hover {
     color: #C83E4D;

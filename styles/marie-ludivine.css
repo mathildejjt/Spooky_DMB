@@ -31,7 +31,6 @@ body{
     height:30px;
     width: 100%;
     box-shadow: 0 1px 15px #C83E4D ;
-    border-radius: 10;
     
 }
 
@@ -131,4 +130,21 @@ h2{
 
 .alfredo{
     width:40%;
+}
+
+.footer { 
+    color: whitesmoke;
+    font-family: 'Pathway Gothic One', sans-serif;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center; 
+    gap: 30px;
+    box-shadow:0px -15px 10px -15px  #C83E4D;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
+}
+.hover:hover {
+    color: #C83E4D;
 }
