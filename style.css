@@ -27,6 +27,7 @@ body{
     width: 100%;
     box-shadow: 0 1px 15px #C83E4D ;
     border-radius: 10;
+    z-index: 1000;
 }
 
 
@@ -110,9 +111,10 @@ footer {
     flex-direction: column;
     align-items: center; 
     
+    
 }
 .footer_elements {
-padding: 200px 10%;
+    padding: 200px 10%;
 }
 .hover:hover {
     color: #C83E4D;
@@ -122,5 +124,6 @@ padding: 200px 10%;
 .audio {
     display: flex;
     gap: 200px;
+    
 }
 

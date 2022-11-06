@@ -79,6 +79,7 @@ h2{
     font-family: 'Pathway Gothic One', sans-serif ; 
     line-height: 2em;
     text-decoration: underline;
+    text-transform: capitalize;
 }
 
 .gras{
@@ -147,4 +148,28 @@ h2{
 }
 .hover:hover {
     color: #C83E4D;
+}
+
+.acteur{
+    display: flex;
+    flex-direction: column;
+    gap :30px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    width:min-content;
+    text-align: center;
+    border: 1px solid;
+    padding: 1%;
+}
+
+.column_acteur{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    padding-top: 30px;
+
+}
+
+.aaron{
+    width: 100px;
 }
