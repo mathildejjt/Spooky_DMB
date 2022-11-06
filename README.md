@@ -13,7 +13,7 @@
 
 ### Description : 
 En cette période d'Halloween, nous avions comme consigne de réaliser un site présentant deux ***grands méchants***. <br> 
-Nous avons fait le choix de présenter deux méchants très différens et d'horizons totalements opposés pour pousser au maximum les frontières ce travail.
+Nous avons fait le choix de présenter deux méchants très différents et d'horizons totalements opposés pour pousser au maximum les frontières de ce travail.
 
 ### Choix des méchants :
 - Mom (The Binding of Isaac) - Mathilde JAJOLET
