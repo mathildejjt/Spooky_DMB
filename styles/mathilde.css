@@ -113,12 +113,14 @@ justify-content: space-between;
 
 }
 .invocations {
-    padding: 50px 10%;
+    margin-left: 175px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    max-width: fit-content;
     border: #C83E4D solid 1px;
+    gap: 50px;
 
 }
 
@@ -152,4 +154,53 @@ gap: 20px;
 
 }
     
-    
+.items img {
+    width: 350px;
+    margin: 20px;
+
+
+}
+.items {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    border: #C83E4D solid;
+    border-width: 1px;
+}
+
+.défense {
+    padding: 50px 10%;
+    display: flex;
+    gap: 40px;
+    line-height: 1.8;
+    align-items: center;
+}
+
+footer { 
+    color: whitesmoke;
+    font-family: 'Pathway Gothic One', sans-serif;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center; 
+}
+.footer_elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding: 200px 10%;
+}
+
+.hover:hover {
+    color: #C83E4D;
+}
+
+.hover {
+    display: flex;
+    color: whitesmoke;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+    flex-direction: column;
+    align-items: center;
+}
